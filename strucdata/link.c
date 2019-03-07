@@ -12,6 +12,7 @@
 struct Link *AppendNode(struct Link *head);
 void DisplayLink(struct Link *head);
 void DeleteMemory(struct Link *head);
+struct Link * DeleteNode(struct Link *head, int nodeData);
 
 struct Link
 {
@@ -21,6 +22,7 @@ struct Link
 
 int main(int argc, const char * argv[]){
     printf("c-learn main() p336 \n");
+    // 像火车车厢考虑便于理解
     
     int i;
     char c;
@@ -40,6 +42,14 @@ int main(int argc, const char * argv[]){
     }
     
     printf("%d Node have been appended.\n",i);
+    
+    int nodeToDel;
+    
+    printf("Delete Node input:");
+    scanf("%d",&nodeToDel);
+    head = DeleteNode(head,nodeToDel);
+    DisplayLink(head);
+
     
     DeleteMemory(head);
     
@@ -99,6 +109,36 @@ void DeleteMemory(struct Link *head){
         free(pr);
     }
 
+}
+
+struct Link * DeleteNode(struct Link *head, int nodeData){
+    struct Link *p = head;
+    struct Link *preNode = head;
+    
+    printf("node dele %d \n",nodeData);
+    if(head == NULL) return head;
+    
+    // find deleNode
+    while (p->data != nodeData && p->next != NULL) {
+        preNode = p;
+        p = p->next;
+    }
+    
+    if (nodeData != p->data) {
+        printf("node %d not found",nodeData);
+    } else {
+        if (p == head) {
+            head = p->next;
+        } else {
+            preNode->next = p->next;
+        }
+        if(p){
+            free(p);
+        }
+        
+    }
+    
+    return head;
 }
 
 
