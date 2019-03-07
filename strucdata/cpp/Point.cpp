@@ -78,19 +78,19 @@ Line::Line(Line &L): p1(L.p1),p2(L.p2)
 }
 
 
-int main(int argc, const char * argv[])
-{
-    cout << setw(5) << setprecision(5) << 3.1415 << endl;  // 3.14
-    
-    Point myp1(1,1),myp2(4,5);
-    Line line(myp1,myp2);
-    Line line2(line); // using Line copy Construtor
-    
-    cout<<"The Lenght of the line is:";
-    cout<<line.GetLen()<<endl;
-    
-//    cout<<"The Lenght of the line2 is:";
-//    cout<<line2.GetLen()<<endl;
-
-}
+//int main(int argc, const char * argv[])
+//{
+//    cout << setw(5) << setprecision(5) << 3.1415 << endl;  // 3.14
+//    
+//    Point myp1(1,1),myp2(4,5);
+//    Line line(myp1,myp2);
+//    Line line2(line); // using Line copy Construtor
+//    
+//    cout<<"The Lenght of the line is:";
+//    cout<<line.GetLen()<<endl;
+//    
+////    cout<<"The Lenght of the line2 is:";
+////    cout<<line2.GetLen()<<endl;
+//
+//}
 

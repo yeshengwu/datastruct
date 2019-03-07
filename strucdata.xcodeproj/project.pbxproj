@@ -13,6 +13,7 @@
 		20B69A9222256D820053FD72 /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 20B69A8F22256D820053FD72 /* Point.cpp */; };
 		20D041F51E90AFB0002E0A68 /* c-fun-poniter.c in Sources */ = {isa = PBXBuildFile; fileRef = 20D041F31E90AFB0002E0A68 /* c-fun-poniter.c */; };
 		20D57B571DF6EE9C0002FE64 /* c-learn.c in Sources */ = {isa = PBXBuildFile; fileRef = 20D57B551DF6EE9C0002FE64 /* c-learn.c */; };
+		20F60C202230AB1F0092180E /* link.c in Sources */ = {isa = PBXBuildFile; fileRef = 20F60C1E2230AB1F0092180E /* link.c */; };
 		EC4D8E1A19446D950007ADE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC4D8E1919446D950007ADE7 /* main.cpp */; };
 		EC4D8E1C19446D950007ADE7 /* strucdata.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EC4D8E1B19446D950007ADE7 /* strucdata.1 */; };
 /* End PBXBuildFile section */
@@ -43,6 +44,8 @@
 		20D041F41E90AFB0002E0A68 /* c-fun-poniter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "c-fun-poniter.h"; sourceTree = "<group>"; };
 		20D57B551DF6EE9C0002FE64 /* c-learn.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "c-learn.c"; sourceTree = "<group>"; };
 		20D57B561DF6EE9C0002FE64 /* c-learn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "c-learn.h"; sourceTree = "<group>"; };
+		20F60C1E2230AB1F0092180E /* link.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = link.c; sourceTree = "<group>"; };
+		20F60C1F2230AB1F0092180E /* link.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = link.h; sourceTree = "<group>"; };
 		EC4D8E1519446D950007ADE7 /* strucdata */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = strucdata; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC4D8E1919446D950007ADE7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EC4D8E1B19446D950007ADE7 /* strucdata.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = strucdata.1; sourceTree = "<group>"; };
@@ -100,6 +103,8 @@
 				20D041F41E90AFB0002E0A68 /* c-fun-poniter.h */,
 				2037C73A20FAFDDC004A0627 /* APUE.c */,
 				2037C73B20FAFDDC004A0627 /* APUE.h */,
+				20F60C1E2230AB1F0092180E /* link.c */,
+				20F60C1F2230AB1F0092180E /* link.h */,
 			);
 			path = strucdata;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 				20D57B571DF6EE9C0002FE64 /* c-learn.c in Sources */,
 				EC4D8E1A19446D950007ADE7 /* main.cpp in Sources */,
 				20B69A9122256D820053FD72 /* Clock.cpp in Sources */,
+				20F60C202230AB1F0092180E /* link.c in Sources */,
 				20B69A9222256D820053FD72 /* Point.cpp in Sources */,
 				20D041F51E90AFB0002E0A68 /* c-fun-poniter.c in Sources */,
 			);
