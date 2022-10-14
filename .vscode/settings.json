@@ -4,7 +4,8 @@
     "iostream": "cpp",
     "stdlib.h": "c",
     "stdio.h": "c",
-    "unistd.h": "c"
+    "unistd.h": "c",
+    "ostream": "cpp"
   },
   "C_Cpp_Runner.msvcBatchPath": "",
   "C_Cpp_Runner.cCompilerPath": "/usr/bin/gcc",

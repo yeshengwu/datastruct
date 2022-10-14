@@ -56,7 +56,6 @@ inline void Clock::ShowTime()
 }
 
 int main(int argc, const char * argv[]){
-{
    Clock myClock(1,2,3);
    cout<<"First time set and output:"<<endl;
    myClock.SetTime();
@@ -65,6 +64,8 @@ int main(int argc, const char * argv[]){
    cout<<"Second time set and output:"<<endl;
    myClock.SetTime(8,30,30);
    myClock.ShowTime();
+
+   return 0;
 }
 
 

@@ -45,7 +45,6 @@ float Intergral(float (*f)(float), float a,float b){
 /**
  p370 函数指针求定积分
  */
-/**
 int main(int argc, const char * argv[]){
     
     float y1,y2;
@@ -60,7 +59,6 @@ int main(int argc, const char * argv[]){
     
     return 0;
 }
- */
 
 
 
