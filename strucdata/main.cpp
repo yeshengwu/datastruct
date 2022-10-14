@@ -33,6 +33,10 @@ void hanoi(int n,char one,char two,char three)
 
 void foo(int n);
 void Swap(int &a,int &b);
+
+int main(int argc, const char * argv[]){
+    std::cout<<"maincpp the numbers of diskes:";
+}
 /*
 int main(int argc, const char * argv[])
 {

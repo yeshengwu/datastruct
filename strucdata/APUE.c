@@ -12,7 +12,7 @@
 #include <string.h>
 #include <sys/wait.h>
 #include <unistd.h> 
-/**
+
 int main(int argc, const char * argv[]){
     char buf[100];
     pid_t pid = -1;
@@ -45,5 +45,5 @@ int main(int argc, const char * argv[]){
     printf("evan add debug 3.while out");
     _exit(0);
  
-}*/
+}
 

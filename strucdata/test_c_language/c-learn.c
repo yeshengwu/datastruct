@@ -13,7 +13,7 @@
 
 #define MAX_LEN 9
 #define N 5
-/*
+
 int main(int argc, const char * argv[]){
  
     printf("c-learn main() p278 \n");
@@ -59,6 +59,6 @@ int main(int argc, const char * argv[]){
     
     
     return 0;
-}*/
+}
 
 

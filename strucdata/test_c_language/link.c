@@ -21,7 +21,7 @@ struct Link
     int data;
     struct Link *next;
 };
-
+/**
 int main(int argc, const char * argv[]){
     printf("c-learn main() p336 \n");
     // 像火车车厢考虑便于理解
@@ -63,7 +63,7 @@ int main(int argc, const char * argv[]){
     
     return 0;
 }
-
+*/
 struct Link *AppendNode(struct Link *head)
 {
     struct Link *p = NULL;

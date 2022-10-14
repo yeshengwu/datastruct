@@ -55,16 +55,16 @@ inline void Clock::ShowTime()
     cout<<Hour<<":"<<Minute<<":"<<Second<<endl;
 }
 
-//int main(int argc, const char * argv[])
-//{
-//    Clock myClock(1,2,3);
-//    cout<<"First time set and output:"<<endl;
-//    myClock.SetTime();
-//    myClock.ShowTime();
-//    
-//    cout<<"Second time set and output:"<<endl;
-//    myClock.SetTime(8,30,30);
-//    myClock.ShowTime();
-//}
+int main(int argc, const char * argv[]){
+{
+   Clock myClock(1,2,3);
+   cout<<"First time set and output:"<<endl;
+   myClock.SetTime();
+   myClock.ShowTime();
+   
+   cout<<"Second time set and output:"<<endl;
+   myClock.SetTime(8,30,30);
+   myClock.ShowTime();
+}
 
 
